@@ -1,0 +1,76 @@
+Outgoing dilepton events for NuMI beam + C12
+
+Number of analized events: 1000000
+Number of signal events: 339
+Interactions
+	Weak[CC]: 69.027%
+	Weak[NC]: 30.973%
+
+Scattering types
+	RES: 53.392%
+	DIS: 46.608%
+
+Produced Particles
+	31.711%	mu-
+	23.304%	HadrSyst
+	16.519%	N+(1535)
+	14.012%	nu_mu
+	4.425%	N0(1535)
+	2.507%	mu+
+	1.475%	N+(1720)
+	1.327%	N+(1710)
+	1.327%	nu_mu_bar
+	0.737%	N0(1710)
+	0.442%	N0(1720)
+	0.442%	N+(1440)
+	0.295%	N+(1700)
+	0.295%	N0(1680)
+	0.295%	e-
+	0.295%	N+(1520)
+	0.147%	nu_e
+	0.147%	N0(1440)
+	0.147%	N0(1675)
+	0.147%	N+(1680)
+
+Reaction Channels
+
+	DIS
+		Weak[CC]
+			10.324%	nu_mu + proton -> mu- + HadrSyst
+			19.764%	nu_mu + neutron -> mu- + HadrSyst
+			1.180%	nu_mu_bar + neutron -> mu+ + HadrSyst
+			2.065%	nu_mu_bar + proton -> mu+ + HadrSyst
+			0.295%	nu_e + proton -> e- + HadrSyst
+			0.295%	nu_e + neutron -> e- + HadrSyst
+		Weak[NC]
+			5.900%	nu_mu + neutron -> nu_mu + HadrSyst
+			4.720%	nu_mu + proton -> nu_mu + HadrSyst
+			0.295%	nu_e + proton -> nu_e + HadrSyst
+			0.590%	nu_mu_bar + neutron -> nu_mu_bar + HadrSyst
+			1.180%	nu_mu_bar + proton -> nu_mu_bar + HadrSyst
+
+	RES
+		Weak[CC]
+			1.475%	nu_mu_bar + proton -> mu+ + N0(1535)
+			27.139%	nu_mu + neutron -> mu- + N+(1535)
+			2.360%	nu_mu + neutron -> mu- + N+(1710)
+			0.295%	nu_mu_bar + proton -> mu+ + N0(1710)
+			0.590%	nu_mu + neutron -> mu- + N+(1520)
+			2.065%	nu_mu + neutron -> mu- + N+(1720)
+			0.590%	nu_mu + neutron -> mu- + N+(1440)
+			0.295%	nu_mu + neutron -> mu- + N+(1700)
+			0.295%	nu_mu + neutron -> mu- + N+(1680)
+		Weak[NC]
+			7.080%	nu_mu + neutron -> nu_mu + N0(1535)
+			5.310%	nu_mu + proton -> nu_mu + N+(1535)
+			0.295%	nu_mu + neutron -> nu_mu + N0(1675)
+			0.885%	nu_mu + neutron -> nu_mu + N0(1720)
+			0.295%	nu_mu + proton -> nu_mu + N+(1710)
+			0.295%	nu_mu + neutron -> nu_mu + N0(1440)
+			0.590%	nu_mu_bar + proton -> nu_mu_bar + N+(1535)
+			0.295%	nu_mu + proton -> nu_mu + N+(1440)
+			0.295%	nu_mu_bar + neutron -> nu_mu_bar + N0(1535)
+			0.885%	nu_mu + proton -> nu_mu + N+(1720)
+			0.590%	nu_mu + neutron -> nu_mu + N0(1680)
+			1.180%	nu_mu + neutron -> nu_mu + N0(1710)
+			0.295%	nu_mu + proton -> nu_mu + N+(1700)

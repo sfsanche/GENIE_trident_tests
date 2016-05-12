@@ -1,0 +1,342 @@
+Outgoing dilepton events for NuMI beam + C12
+
+Number of analized events: 1000000
+Number of signal events: 1000000
+Interactions
+	Weak[CC]: 73.887%
+	Weak[NC]: 26.112%
+	Weak[CC+NC+interference]: 0.001%
+
+Scattering types
+	DIS: 55.298%
+	RES: 26.815%
+	QES: 16.760%
+	COH: 1.116%
+	NuEEL: 0.009%
+	IMD: 0.000%
+
+Produced Particles
+	33.852%	mu-
+	27.649%	HadrSyst
+	11.834%	nu_mu
+	6.463%	proton
+	4.492%	Delta++
+	2.647%	Delta+
+	2.502%	mu+
+	1.758%	neutron
+	1.251%	Delta0
+	1.068%	N+(1535)
+	1.009%	nu_mu_bar
+	0.960%	N+(1520)
+	0.558%	C12
+	0.548%	e-
+	0.424%	N+(1440)
+	0.348%	N+(1680)
+	0.304%	Delta-
+	0.276%	N+(1720)
+	0.247%	N0(1520)
+	0.231%	N0(1535)
+	0.198%	Delta++1700
+	0.193%	nu_e
+	0.116%	N+(1675)
+	0.109%	Delta+(1700)
+	0.094%	Lambda_c+
+	0.090%	N0(1440)
+	0.087%	N0(1680)
+	0.080%	N0(1720)
+	0.067%	N+(1700)
+	0.062%	N+(1710)
+	0.060%	Delta++1620
+	0.049%	N+(1650)
+	0.046%	e+
+	0.046%	Delta0(1700)
+	0.044%	Sigma_c++
+	0.034%	Delta+(1620)
+	0.023%	N0(1675)
+	0.022%	Sigma_c+
+	0.021%	nu_e_bar
+	0.016%	Delta0(1620)
+	0.016%	N0(1710)
+	0.015%	Delta-(1700)
+	0.011%	N0(1650)
+	0.010%	Delta++1920
+	0.010%	N0(1700)
+	0.010%	Delta++1905
+	0.009%	Delta++1910
+	0.008%	Delta-(1620)
+	0.006%	Delta+(1905)
+	0.006%	Delta+(1920)
+	0.006%	Delta+(1910)
+	0.003%	Delta0(1920)
+	0.003%	Delta0(1910)
+	0.002%	Delta0(1905)
+	0.002%	Delta++1950
+	0.001%	Delta+(1950)
+	0.001%	Delta-(1910)
+	0.001%	Delta-(1920)
+	0.001%	Delta-(1905)
+	0.001%	Delta0(1950)
+	0.000%	Delta-(1950)
+
+Reaction Channels
+
+	DIS
+		Weak[CC]
+			12.715%	nu_mu + proton -> mu- + HadrSyst
+			25.047%	nu_mu + neutron -> mu- + HadrSyst
+			1.832%	nu_mu_bar + proton -> mu+ + HadrSyst
+			1.059%	nu_mu_bar + neutron -> mu+ + HadrSyst
+			0.229%	nu_e + proton -> e- + HadrSyst
+			0.445%	nu_e + neutron -> e- + HadrSyst
+			0.035%	nu_e_bar + proton -> e+ + HadrSyst
+			0.021%	nu_e_bar + neutron -> e+ + HadrSyst
+		Weak[NC]
+			6.658%	nu_mu + neutron -> nu_mu + HadrSyst
+			0.560%	nu_mu_bar + neutron -> nu_mu_bar + HadrSyst
+			5.872%	nu_mu + proton -> nu_mu + HadrSyst
+			0.571%	nu_mu_bar + proton -> nu_mu_bar + HadrSyst
+			0.120%	nu_e + neutron -> nu_e + HadrSyst
+			0.108%	nu_e + proton -> nu_e + HadrSyst
+			0.011%	nu_e_bar + neutron -> nu_e_bar + HadrSyst
+			0.014%	nu_e_bar + proton -> nu_e_bar + HadrSyst
+
+	RES
+		Weak[CC]
+			0.141%	nu_mu_bar + proton -> mu+ + N0(1520)
+			2.948%	nu_mu + neutron -> mu- + Delta+
+			8.862%	nu_mu + proton -> mu- + Delta++
+			0.596%	nu_mu_bar + neutron -> mu+ + Delta-
+			0.180%	nu_mu + neutron -> mu- + N+(1675)
+			1.836%	nu_mu + neutron -> mu- + N+(1535)
+			0.121%	nu_e + proton -> e- + Delta++
+			0.572%	nu_mu + neutron -> mu- + N+(1680)
+			0.712%	nu_mu + neutron -> mu- + N+(1440)
+			0.108%	nu_mu + neutron -> mu- + N+(1710)
+			1.627%	nu_mu + neutron -> mu- + N+(1520)
+			0.390%	nu_mu + proton -> mu- + Delta++1700
+			0.075%	nu_mu + neutron -> mu- + N+(1650)
+			0.118%	nu_mu + proton -> mu- + Delta++1620
+			0.446%	nu_mu + neutron -> mu- + N+(1720)
+			0.134%	nu_mu + neutron -> mu- + Delta+(1700)
+			0.115%	nu_mu_bar + proton -> mu+ + N0(1535)
+			0.021%	nu_e + neutron -> e- + N+(1520)
+			0.108%	nu_mu + neutron -> mu- + N+(1700)
+			0.196%	nu_mu_bar + proton -> mu+ + Delta0
+			0.039%	nu_e + neutron -> e- + Delta+
+			0.009%	nu_mu_bar + proton -> mu+ + Delta0(1700)
+			0.010%	nu_e + neutron -> e- + N+(1440)
+			0.008%	nu_mu + neutron -> mu- + Delta+(1905)
+			0.009%	nu_mu_bar + proton -> mu+ + N0(1710)
+			0.000%	nu_e_bar + proton -> e+ + N0(1675)
+			0.043%	nu_mu_bar + proton -> mu+ + N0(1680)
+			0.041%	nu_mu_bar + proton -> mu+ + N0(1440)
+			0.030%	nu_mu_bar + neutron -> mu+ + Delta-(1700)
+			0.023%	nu_e + neutron -> e- + N+(1535)
+			0.007%	nu_mu_bar + proton -> mu+ + N0(1700)
+			0.002%	nu_mu_bar + neutron -> mu+ + Delta-(1920)
+			0.002%	nu_e_bar + proton -> e+ + N0(1535)
+			0.021%	nu_mu + proton -> mu- + Delta++1920
+			0.035%	nu_mu_bar + proton -> mu+ + N0(1720)
+			0.008%	nu_mu_bar + proton -> mu+ + N0(1650)
+			0.040%	nu_mu + neutron -> mu- + Delta+(1620)
+			0.020%	nu_mu + proton -> mu- + Delta++1905
+			0.015%	nu_mu_bar + neutron -> mu+ + Delta-(1620)
+			0.013%	nu_mu_bar + proton -> mu+ + N0(1675)
+			0.005%	nu_mu + neutron -> mu- + Delta+(1910)
+			0.011%	nu_e_bar + neutron -> e+ + Delta-
+			0.002%	nu_e + neutron -> e- + N+(1675)
+			0.005%	nu_mu_bar + proton -> mu+ + Delta0(1620)
+			0.001%	nu_mu_bar + proton -> mu+ + Delta0(1910)
+			0.002%	nu_mu + neutron -> mu- + Delta+(1950)
+			0.017%	nu_mu + proton -> mu- + Delta++1910
+			0.008%	nu_e + neutron -> e- + N+(1680)
+			0.002%	nu_e_bar + proton -> e+ + N0(1520)
+			0.006%	nu_e + neutron -> e- + N+(1720)
+			0.000%	nu_e + neutron -> e- + Delta+(1920)
+			0.006%	nu_e + proton -> e- + Delta++1700
+			0.006%	nu_mu + neutron -> mu- + Delta+(1920)
+			0.000%	nu_e_bar + proton -> e+ + N0(1700)
+			0.002%	nu_e + neutron -> e- + N+(1710)
+			0.000%	nu_mu_bar + proton -> mu+ + Delta0(1920)
+			0.001%	nu_e_bar + proton -> e+ + N0(1440)
+			0.000%	nu_e + proton -> e- + Delta++1950
+			0.001%	nu_e + neutron -> e- + Delta+(1700)
+			0.004%	nu_mu + proton -> mu- + Delta++1950
+			0.000%	nu_e_bar + proton -> e+ + Delta0(1700)
+			0.001%	nu_mu_bar + neutron -> mu+ + Delta-(1905)
+			0.000%	nu_mu_bar + proton -> mu+ + Delta0(1950)
+			0.002%	nu_mu_bar + neutron -> mu+ + Delta-(1910)
+			0.000%	nu_e_bar + proton -> e+ + N0(1680)
+			0.001%	nu_e_bar + proton -> e+ + N0(1720)
+			0.001%	nu_e + proton -> e- + Delta++1620
+			0.000%	nu_mu_bar + neutron -> mu+ + Delta-(1950)
+			0.000%	nu_mu_bar + proton -> mu+ + Delta0(1905)
+			0.001%	nu_e + neutron -> e- + N+(1700)
+			0.001%	nu_e + neutron -> e- + N+(1650)
+			0.000%	nu_e + proton -> e- + Delta++1905
+			0.000%	nu_e + neutron -> e- + Delta+(1620)
+			0.003%	nu_e_bar + proton -> e+ + Delta0
+			0.000%	nu_e_bar + proton -> e+ + Delta0(1620)
+			0.000%	nu_e + proton -> e- + Delta++1910
+			0.000%	nu_e_bar + neutron -> e+ + Delta-(1700)
+			0.000%	nu_e_bar + proton -> e+ + N0(1650)
+			0.000%	nu_e_bar + neutron -> e+ + Delta-(1620)
+			0.000%	nu_e_bar + proton -> e+ + N0(1710)
+			0.000%	nu_e + neutron -> e- + Delta+(1950)
+			0.000%	nu_e + neutron -> e- + Delta+(1910)
+		Weak[NC]
+			2.106%	nu_mu + proton -> nu_mu + Delta+
+			2.114%	nu_mu + neutron -> nu_mu + Delta0
+			0.125%	nu_mu + neutron -> nu_mu + N0(1440)
+			0.021%	nu_mu + neutron -> nu_mu + N0(1710)
+			0.118%	nu_mu + proton -> nu_mu + N+(1440)
+			0.255%	nu_mu + proton -> nu_mu + N+(1535)
+			0.170%	nu_mu_bar + proton -> nu_mu_bar + Delta+
+			0.318%	nu_mu + neutron -> nu_mu + N0(1535)
+			0.045%	nu_mu + proton -> nu_mu + N+(1675)
+			0.029%	nu_e + neutron -> nu_e + Delta0
+			0.024%	nu_mu + neutron -> nu_mu + Delta0(1620)
+			0.024%	nu_mu_bar + proton -> nu_mu_bar + N+(1520)
+			0.075%	nu_mu + proton -> nu_mu + Delta+(1700)
+			0.158%	nu_mu_bar + neutron -> nu_mu_bar + Delta0
+			0.120%	nu_mu + neutron -> nu_mu + N0(1680)
+			0.245%	nu_mu + proton -> nu_mu + N+(1520)
+			0.327%	nu_mu + neutron -> nu_mu + N0(1520)
+			0.011%	nu_mu_bar + neutron -> nu_mu_bar + N0(1720)
+			0.000%	nu_e_bar + neutron -> nu_e_bar + N0(1680)
+			0.001%	nu_e + neutron -> nu_e + N0(1675)
+			0.003%	nu_mu_bar + neutron -> nu_mu_bar + Delta0(1620)
+			0.112%	nu_mu + neutron -> nu_mu + N0(1720)
+			0.075%	nu_mu + neutron -> nu_mu + Delta0(1700)
+			0.024%	nu_mu + proton -> nu_mu + N+(1700)
+			0.008%	nu_mu_bar + proton -> nu_mu_bar + N+(1720)
+			0.090%	nu_mu + proton -> nu_mu + N+(1720)
+			0.105%	nu_mu + proton -> nu_mu + N+(1680)
+			0.009%	nu_mu_bar + neutron -> nu_mu_bar + N0(1680)
+			0.007%	nu_mu_bar + proton -> nu_mu_bar + N+(1440)
+			0.004%	nu_e + proton -> nu_e + N+(1535)
+			0.003%	nu_mu_bar + neutron -> nu_mu_bar + N0(1675)
+			0.013%	nu_mu + neutron -> nu_mu + N0(1650)
+			0.021%	nu_mu_bar + neutron -> nu_mu_bar + N0(1520)
+			0.029%	nu_mu + neutron -> nu_mu + N0(1675)
+			0.010%	nu_mu_bar + proton -> nu_mu_bar + N+(1680)
+			0.006%	nu_mu_bar + neutron -> nu_mu_bar + Delta0(1700)
+			0.021%	nu_mu_bar + neutron -> nu_mu_bar + N0(1535)
+			0.006%	nu_mu + neutron -> nu_mu + Delta0(1920)
+			0.012%	nu_mu + neutron -> nu_mu + N0(1700)
+			0.028%	nu_e + proton -> nu_e + Delta+
+			0.017%	nu_mu_bar + proton -> nu_mu_bar + N+(1535)
+			0.004%	nu_e + neutron -> nu_e + N0(1520)
+			0.005%	nu_mu + neutron -> nu_mu + Delta0(1910)
+			0.006%	nu_mu_bar + proton -> nu_mu_bar + Delta+(1700)
+			0.023%	nu_mu + proton -> nu_mu + Delta+(1620)
+			0.003%	nu_mu_bar + proton -> nu_mu_bar + Delta+(1620)
+			0.001%	nu_e + neutron -> nu_e + N0(1680)
+			0.003%	nu_e_bar + neutron -> nu_e_bar + Delta0
+			0.019%	nu_mu + proton -> nu_mu + N+(1650)
+			0.005%	nu_mu + proton -> nu_mu + Delta+(1920)
+			0.006%	nu_mu + proton -> nu_mu + Delta+(1910)
+			0.004%	nu_mu_bar + proton -> nu_mu_bar + N+(1675)
+			0.000%	nu_e_bar + proton -> nu_e_bar + Delta+(1700)
+			0.011%	nu_mu_bar + neutron -> nu_mu_bar + N0(1440)
+			0.000%	nu_e + proton -> nu_e + N+(1650)
+			0.000%	nu_e_bar + neutron -> nu_e_bar + N0(1535)
+			0.000%	nu_e_bar + proton -> nu_e_bar + N+(1440)
+			0.005%	nu_mu + proton -> nu_mu + Delta+(1905)
+			0.002%	nu_mu_bar + proton -> nu_mu_bar + N+(1650)
+			0.004%	nu_e + proton -> nu_e + N+(1520)
+			0.004%	nu_mu + neutron -> nu_mu + Delta0(1905)
+			0.002%	nu_e + proton -> nu_e + N+(1440)
+			0.013%	nu_mu + proton -> nu_mu + N+(1710)
+			0.001%	nu_mu_bar + neutron -> nu_mu_bar + N0(1710)
+			0.001%	nu_mu + neutron -> nu_mu + Delta0(1950)
+			0.000%	nu_e + neutron -> nu_e + N0(1650)
+			0.001%	nu_e + neutron -> nu_e + N0(1440)
+			0.002%	nu_e + neutron -> nu_e + Delta0(1700)
+			0.000%	nu_mu_bar + neutron -> nu_mu_bar + Delta0(1920)
+			0.001%	nu_e + proton -> nu_e + N+(1680)
+			0.005%	nu_e + neutron -> nu_e + N0(1535)
+			0.003%	nu_e_bar + proton -> nu_e_bar + Delta+
+			0.000%	nu_mu_bar + neutron -> nu_mu_bar + Delta0(1910)
+			0.001%	nu_mu_bar + neutron -> nu_mu_bar + N0(1700)
+			0.001%	nu_mu_bar + proton -> nu_mu_bar + N+(1710)
+			0.001%	nu_mu_bar + proton -> nu_mu_bar + Delta+(1920)
+			0.001%	nu_e + proton -> nu_e + Delta+(1700)
+			0.000%	nu_e + neutron -> nu_e + Delta0(1620)
+			0.000%	nu_e + neutron -> nu_e + N0(1710)
+			0.000%	nu_e + neutron -> nu_e + Delta0(1920)
+			0.001%	nu_mu_bar + proton -> nu_mu_bar + N+(1700)
+			0.000%	nu_e_bar + neutron -> nu_e_bar + Delta0(1700)
+			0.001%	nu_e + proton -> nu_e + Delta+(1620)
+			0.002%	nu_e + proton -> nu_e + N+(1720)
+			0.000%	nu_e_bar + proton -> nu_e_bar + N+(1535)
+			0.000%	nu_e_bar + proton -> nu_e_bar + N+(1520)
+			0.000%	nu_e_bar + proton -> nu_e_bar + N+(1720)
+			0.000%	nu_mu_bar + proton -> nu_mu_bar + Delta+(1905)
+			0.000%	nu_e_bar + neutron -> nu_e_bar + N0(1520)
+			0.000%	nu_e + neutron -> nu_e + Delta0(1905)
+			0.001%	nu_mu_bar + neutron -> nu_mu_bar + N0(1650)
+			0.001%	nu_mu_bar + proton -> nu_mu_bar + Delta+(1910)
+			0.001%	nu_e + proton -> nu_e + N+(1700)
+			0.002%	nu_e + neutron -> nu_e + N0(1720)
+			0.000%	nu_mu + proton -> nu_mu + Delta+(1950)
+			0.001%	nu_e + proton -> nu_e + N+(1675)
+			0.000%	nu_e + neutron -> nu_e + Delta0(1910)
+			0.000%	nu_e_bar + neutron -> nu_e_bar + N0(1440)
+			0.000%	nu_e + neutron -> nu_e + N0(1700)
+			0.000%	nu_e_bar + neutron -> nu_e_bar + N0(1710)
+			0.000%	nu_mu_bar + neutron -> nu_mu_bar + Delta0(1950)
+			0.000%	nu_e_bar + neutron -> nu_e_bar + N0(1650)
+			0.000%	nu_e_bar + neutron -> nu_e_bar + N0(1720)
+			0.000%	nu_mu_bar + proton -> nu_mu_bar + Delta+(1950)
+			0.000%	nu_e_bar + proton -> nu_e_bar + N+(1680)
+			0.000%	nu_e_bar + neutron -> nu_e_bar + N0(1700)
+
+	QES
+		Weak[CC]
+			10.764%	nu_mu + neutron -> mu- + proton
+			0.754%	nu_mu_bar + proton -> mu+ + neutron
+			0.184%	nu_mu + neutron -> mu- + Lambda_c+
+			0.151%	nu_e + neutron -> e- + proton
+			0.088%	nu_mu + proton -> mu- + Sigma_c++
+			0.043%	nu_mu + neutron -> mu- + Sigma_c+
+			0.001%	nu_e + proton -> e- + Sigma_c++
+			0.013%	nu_e_bar + proton -> e+ + neutron
+			0.003%	nu_e + neutron -> e- + Lambda_c+
+			0.001%	nu_e + neutron -> e- + Sigma_c+
+		Weak[NC]
+			0.194%	nu_mu_bar + neutron -> nu_mu_bar + neutron
+			2.515%	nu_mu + neutron -> nu_mu + neutron
+			1.841%	nu_mu + proton -> nu_mu + proton
+			0.140%	nu_mu_bar + proton -> nu_mu_bar + proton
+			0.035%	nu_e + neutron -> nu_e + neutron
+			0.027%	nu_e + proton -> nu_e + proton
+			0.004%	nu_e_bar + neutron -> nu_e_bar + neutron
+			0.003%	nu_e_bar + proton -> nu_e_bar + proton
+
+	COH
+		Weak[CC]
+			0.622%	nu_mu + C12 -> mu- + C12
+			0.091%	nu_mu_bar + C12 -> mu+ + C12
+			0.012%	nu_e + C12 -> e- + C12
+			0.002%	nu_e_bar + C12 -> e+ + C12
+		Weak[NC]
+			0.334%	nu_mu + C12 -> nu_mu + C12
+			0.049%	nu_mu_bar + C12 -> nu_mu_bar + C12
+			0.001%	nu_e_bar + C12 -> nu_e_bar + C12
+			0.005%	nu_e + C12 -> nu_e + C12
+
+	NuEEL
+		Weak[NC]
+			0.007%	nu_mu + e- -> e- + nu_mu
+			0.001%	nu_mu_bar + e- -> e- + nu_mu_bar
+		Weak[CC+NC+interference]
+			0.001%	nu_e + e- -> e- + nu_e
+
+	IMD
+		Weak[CC]
+			0.000%	nu_mu + e- -> mu- + nu_e
+
+	
+
+	

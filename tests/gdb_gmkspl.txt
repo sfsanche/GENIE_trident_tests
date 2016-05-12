@@ -1,0 +1,2 @@
+set args -p 14 -t 1000060120 -n 10 -e 3 -o spline_numu_C12_simple_NuE.xml --event-generator-list NuE
+set args -p 14 -t 1000060120 -n 10 -e 3 -o spline_numu_C12_simple_Trident.xml --event-generator-list TRIDENT

@@ -1,0 +1,106 @@
+1452652998 NOTICE Messenger : [s] <SetPrioritiesFromXmlFile (158)> : Reading msg stream priorities from XML file: /opt/genie/production_2_8_6/config/Messenger.xml
+1452652998 INFO gmkspl : [n] <gMakeSplines.cxx::GetCommandLineArgs (182)> : Parsing command line arguments
+1452652998 INFO gmkspl : [n] <gMakeSplines.cxx::GetCommandLineArgs (196)> : Reading output filename
+1452652998 INFO gmkspl : [n] <gMakeSplines.cxx::GetCommandLineArgs (210)> : Reading number of knots/spline
+1452652998 INFO gmkspl : [n] <gMakeSplines.cxx::GetCommandLineArgs (220)> : Reading maximum spline energy
+1452652998 INFO gmkspl : [n] <gMakeSplines.cxx::GetCommandLineArgs (230)> : Reading neutrino PDG codes
+1452652998 INFO gmkspl : [n] <gMakeSplines.cxx::GetCommandLineArgs (242)> : Reading target nuclei PDG codes
+1452652998 INFO gmkspl : [n] <gMakeSplines.cxx::GetCommandLineArgs (254)> : No geometry file was specified
+1452652998 INFO gmkspl : [n] <gMakeSplines.cxx::GetCommandLineArgs (279)> : Unspecified random number seed - Using default
+1452652998 INFO gmkspl : [n] <gMakeSplines.cxx::GetCommandLineArgs (288)> : Unspecified input cross-section file
+1452652998 NOTICE gmkspl : [n] <gMakeSplines.cxx::GetCommandLineArgs (295)> : 
+
+****************************
+  gmkspl job configuration  
+****************************
+
+ Neutrino PDG codes : 14
+ Target PDG codes : 1000060120
+ Input ROOT geometry : 
+ Output cross-section file : spline_numu_C12_simple_NuE.xml
+ Input cross-section file : 
+ Random number seed : -1
+
+1452652998 NOTICE gmkspl : [n] <gMakeSplines.cxx::GetCommandLineArgs (306)> : Global running options:
+ Event generator list: Trident
+ User-specified message thresholds : 
+ Cache file : 
+ Unphysical event mask (bits: 15 -> 0) : 1111111111111111
+ Event record print level : 3
+ MC job status file refresh rate: 50
+ Pre-calculate all free-nucleon cross-sections? : Yes
+
+1452652998 WARN AppInit : [n] <AppInit.cxx::XSecTable (73)> : No cross-section file was specified in the application inputs
+1452652998 WARN AppInit : [n] <AppInit.cxx::XSecTable (74)> : If none is loaded, event generation might be inefficient
+1452652998 INFO PDG : [n] <PDGLibrary.cxx::Instance (48)> : PDGLibrary late initialization
+1452652998 INFO PDG : [n] <PDGLibrary.cxx::LoadDBase (81)> : Load PDG data from: /opt/genie/production_2_8_6/data/evgen/catalogues/pdg/genie_pdg_table.txt
+ *** TDatabasePDG::AddParticle: particle with PDGcode=0 already defined
+ *** TDatabasePDG::AddParticle: particle with PDGcode=2000000300 already defined
+ *** TDatabasePDG::AddParticle: particle with PDGcode=1000832100 already defined
+1452652998 INFO gmkspl : [n] <gMakeSplines.cxx::main (149)> : Neutrinos: 
+[-]
+ |---o           nu_mu (PDG code = 14)
+1452652998 INFO gmkspl : [n] <gMakeSplines.cxx::main (150)> : Targets: 
+[-]
+ |---o             C12 (PDG code = 1000060120)
+1452652998 NOTICE GEVGDriver : [n] <GEVGDriver.cxx::Init (152)> : Initializing unphysical event mask (bits: 15 -> 0) : 1111111111111111
+1452652998 NOTICE GEVGDriver : [n] <GEVGDriver.cxx::SetEventGeneratorList (386)> : Setting event generator list: Trident
+1452652998 NOTICE GEVGDriver : [n] <GEVGDriver.cxx::Configure (191)> : 
+*********************************************************************************************************************************
+  Configuring event generation driver for initial state: `nu-pdg:14;tgt-pdg:1000060120;' using event generator list: `Trident'.  
+*********************************************************************************************************************************
+1452652998 WARN AlgConfigPool : [n] <AlgConfigPool.cxx::FindRegistry (489)> : No config registry for key genie::EventGeneratorListAssembler/Trident
+1452652998 WARN Algorithm : [n] <Algorithm.cxx::FindConfig (147)> : No Configuration available for genie::EventGeneratorListAssembler/Trident at the ConfigPool
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash (kSigSegmentationViolation).
+This is the entire stack trace of all threads:
+===========================================================
+#0  0x00007f114f78c30c in __libc_waitpid (pid=13027, stat_loc=stat_loc
+entry=0x7ffff4c13e30, options=options
+entry=0) at ../sysdeps/unix/sysv/linux/waitpid.c:31
+#1  0x00007f114f71618b in do_system (line=<optimized out>) at ../sysdeps/posix/system.c:148
+#2  0x00007f11d6468a20 in TUnixSystem::Exec (this=0xa53430, shellcmd=0x11c0950 "/opt/root/production_5_34_32/etc/gdb-backtrace.sh 13024 1>&2") at /opt/root/production_5_34_32/core/unix/src/TUnixSystem.cxx:2172
+#3  0x00007f11d64692ab in TUnixSystem::StackTrace (this=0xa53430) at /opt/root/production_5_34_32/core/unix/src/TUnixSystem.cxx:2419
+#4  0x00007f11d6466cc9 in TUnixSystem::DispatchSignals (this=0xa53430, sig=kSigSegmentationViolation) at /opt/root/production_5_34_32/core/unix/src/TUnixSystem.cxx:1294
+#5  0x00007f11d6464dcd in SigHandler (sig=kSigSegmentationViolation) at /opt/root/production_5_34_32/core/unix/src/TUnixSystem.cxx:440
+#6  0x00007f11d646c9ff in sighandler (sig=11) at /opt/root/production_5_34_32/core/unix/src/TUnixSystem.cxx:3750
+#7  <signal handler called>
+#8  0x00007f11d9b90dee in std::_Rb_tree<std::string, std::pair<std::string const, genie::RegistryItemI*>, std::_Select1st<std::pair<std::string const, genie::RegistryItemI*> >, std::less<std::string>, std::allocator<std::pair<std::string const, genie::RegistryItemI*> > >::_M_begin (this=0x18) at /usr/include/c++/4.9/bits/stl_tree.h:524
+#9  0x00007f11d8bdd6a8 in std::_Rb_tree<std::string, std::pair<std::string const, genie::RegistryItemI*>, std::_Select1st<std::pair<std::string const, genie::RegistryItemI*> >, std::less<std::string>, std::allocator<std::pair<std::string const, genie::RegistryItemI*> > >::find (this=0x18, __k="NGenerators") at /usr/include/c++/4.9/bits/stl_tree.h:1926
+#10 0x00007f11d8bd98a9 in std::map<std::string, genie::RegistryItemI*, std::less<std::string>, std::allocator<std::pair<std::string const, genie::RegistryItemI*> > >::find (this=0x18, __x="NGenerators") at /usr/include/c++/4.9/bits/stl_map.h:875
+#11 0x00007f11d8bd57b1 in genie::Registry::Exists (this=0x0, key="NGenerators") at Registry.cxx:566
+#12 0x00007f11d8bdc00d in genie::GetValueOrUseDefault<int> (r=0x0, key="NGenerators", def=0, set_def=true) at Registry.cxx:74
+#13 0x00007f11d8bd555d in genie::Registry::GetIntDef (this=0x0, key="NGenerators", def_opt=0, set_def=true) at Registry.cxx:546
+#14 0x00007f11db9047f4 in genie::EventGeneratorListAssembler::AssembleGeneratorList (this=0x7ffff4c168c0) at EventGeneratorListAssembler.cxx:56
+#15 0x00007f11db4379f5 in genie::GEVGDriver::BuildGeneratorList (this=0x7ffff4c16be0) at GEVGDriver.cxx:222
+#16 0x00007f11db437583 in genie::GEVGDriver::Configure (this=0x7ffff4c16be0, is=...) at GEVGDriver.cxx:195
+#17 0x0000000000406d86 in main (argc=15, argv=0x7ffff4c16eb8) at gMakeSplines.cxx:165
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+If they do not help you then please submit a bug report at
+http://root.cern.ch/bugs. Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#8  0x00007f11d9b90dee in std::_Rb_tree<std::string, std::pair<std::string const, genie::RegistryItemI*>, std::_Select1st<std::pair<std::string const, genie::RegistryItemI*> >, std::less<std::string>, std::allocator<std::pair<std::string const, genie::RegistryItemI*> > >::_M_begin (this=0x18) at /usr/include/c++/4.9/bits/stl_tree.h:524
+#9  0x00007f11d8bdd6a8 in std::_Rb_tree<std::string, std::pair<std::string const, genie::RegistryItemI*>, std::_Select1st<std::pair<std::string const, genie::RegistryItemI*> >, std::less<std::string>, std::allocator<std::pair<std::string const, genie::RegistryItemI*> > >::find (this=0x18, __k="NGenerators") at /usr/include/c++/4.9/bits/stl_tree.h:1926
+#10 0x00007f11d8bd98a9 in std::map<std::string, genie::RegistryItemI*, std::less<std::string>, std::allocator<std::pair<std::string const, genie::RegistryItemI*> > >::find (this=0x18, __x="NGenerators") at /usr/include/c++/4.9/bits/stl_map.h:875
+#11 0x00007f11d8bd57b1 in genie::Registry::Exists (this=0x0, key="NGenerators") at Registry.cxx:566
+#12 0x00007f11d8bdc00d in genie::GetValueOrUseDefault<int> (r=0x0, key="NGenerators", def=0, set_def=true) at Registry.cxx:74
+#13 0x00007f11d8bd555d in genie::Registry::GetIntDef (this=0x0, key="NGenerators", def_opt=0, set_def=true) at Registry.cxx:546
+#14 0x00007f11db9047f4 in genie::EventGeneratorListAssembler::AssembleGeneratorList (this=0x7ffff4c168c0) at EventGeneratorListAssembler.cxx:56
+#15 0x00007f11db4379f5 in genie::GEVGDriver::BuildGeneratorList (this=0x7ffff4c16be0) at GEVGDriver.cxx:222
+#16 0x00007f11db437583 in genie::GEVGDriver::Configure (this=0x7ffff4c16be0, is=...) at GEVGDriver.cxx:195
+#17 0x0000000000406d86 in main (argc=15, argv=0x7ffff4c16eb8) at gMakeSplines.cxx:165
+===========================================================
+
+
+Erreur de segmentation
+

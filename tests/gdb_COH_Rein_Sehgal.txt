@@ -1,0 +1,4 @@
+set args -n 50 -p 14 -t 1000060120 -e 3 --run 100 \
+--seed 2989819 \
+--cross-sections ./spline_nus_C12.xml \
+--event-generator-list COH

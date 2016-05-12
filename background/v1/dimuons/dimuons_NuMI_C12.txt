@@ -1,0 +1,36 @@
+Outgoing dilepton events for NuMI beam + C12
+
+Number of analized events: 1000000
+Number of signal events: 8
+Interactions
+	Weak[CC]: 62.500%
+	Weak[NC]: 37.500%
+
+Scattering types
+	DIS: 62.500%
+	RES: 37.500%
+
+Produced Particles
+	31.250%	HadrSyst
+	25.000%	mu-
+	18.750%	nu_mu
+	6.250%	mu+
+	6.250%	N0(1710)
+	6.250%	N+(1535)
+	6.250%	N+(1720)
+
+Reaction Channels
+
+	DIS
+		Weak[CC]
+			12.500%	nu_mu + proton -> mu- + HadrSyst
+			25.000%	nu_mu + neutron -> mu- + HadrSyst
+		Weak[NC]
+			25.000%	nu_mu + proton -> nu_mu + HadrSyst
+
+	RES
+		Weak[CC]
+			12.500%	nu_mu_bar + proton -> mu+ + N0(1710)
+			12.500%	nu_mu + neutron -> mu- + N+(1535)
+		Weak[NC]
+			12.500%	nu_mu + proton -> nu_mu + N+(1720)
