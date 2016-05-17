@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "#!/bin/bash" > "./call_100_zerglings"
+
+for((c=1;c<=10;c++))
+do
+		echo "nohup gevgen_numi -f './numiflux_net.root,-12[nue],-14[numu],12[nuebar],14[numubar]' -g 1000060120 -r $c -n 10000 --seed $RANDOM --cross-sections ./spline_nus_C12.xml  >/dev/null 2>&1&" >> "./call_100_zerglings"
+done
+	
+chmod 755 "./call_100_zerglings"

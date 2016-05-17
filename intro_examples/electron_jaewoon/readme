@@ -1,0 +1,4 @@
+Este programa selecciona los eventos de interacción Nu - Electron y hace histogramas de la energía del neutrino
+incidente y de la del electrón de salida. Requiere de al menos 1M eventos de NuMI + C12 para que los histogramas
+resulten bien definidos, como en el archivo de muestra 'E_energy_comparison.png' que se hizo con esta cantidad de
+eventos. Se compara vs los resultados reportados por Jaewoon Park.

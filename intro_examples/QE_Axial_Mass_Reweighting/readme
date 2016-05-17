@@ -1,0 +1,11 @@
+Este script repesa las distribuciones de eventos de NuMI + C12 al considerar una variación de la masa axial para scattering
+cuasielástico en cinco pasos: 
+
+Ma - 2 delta
+Ma -   delta
+Ma
+Ma +   delta
+Ma + 2 delta
+
+y grafica las distribuciones de eventos repesadas.
+Además, grafia las distribuciones de Q2 y W de los eventos analizados.

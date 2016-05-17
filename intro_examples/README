@@ -1,0 +1,43 @@
+Códigos de análisis:
+
+Para emepezar, los archivos en ./events_NuMI_C12 generan eventos de interacción de neutrinos (mu, e) del NuMI Beam con blanco C-12.
+El ejecutable empleado es 'gevgen'. Para beneficiarse de correrlo en paralelo y generar eventos rápido, ejecutar primero:
+
+$ ./generate_inputs
+
+Esto crea el archivo './call_100_zerglings' que tiene los comandos necesarios para llamar 100 instancias de 'gevgen' (funciona
+maravillosamente en el server PUCP...) y así generar 100K eventos rápidamente en paralelo. El número de llamadas a 'gevgen' se 
+puede modificar en './generate_inputs'. Para generar los eventos en sí, ejecutar:
+
+$ ./call_100_zerglings
+
+Se crearán 100 archivos 'gntp.####.ghep.root' de eventos. Para combinarlos en uno solo (práctico), ejecutar:
+
+$ ./ gevpick -i 'gntp.*.ghep.root' -t all -o gntp.NuMI_C12.ghep.root
+
+Este será el archivo de eventos utilizado para análisis. Los archivos parciales se pueden borrar ahora, así como también los 
+'genie-mcjob-###.status'.
+Notar que los otros archivos 'numiflux.root' y 'splines_nus_C12.xml' son importantes, pues contienen el flujo incidente y las
+secciones de choque de interacción precalculadas.
+
+
+
+
+Ejemplos de análisis:
+Cada una de laa otras carpetas tiene códigos que hacen diferentes análisis con los eventos generados. Para compilarlos, ejecutar
+
+$ make gtestEventLoop
+
+en cada carpeta. Luego, para ejecutar los scripts compilados, usar:
+
+$ ./gtestEventLoop -f ../events_NuMI_C1. Para compilarlos, ejecutar
+
+$ make gtestEventLoop
+
+en cada carpeta. Luego, para ejecutar los scripts compilados, usar:
+
+$ ./gtestEventLoop -f ../events_NuMI_C12/gntp.NuMI_C12.ghep.root
+
+Se producirán varias archivos de salida, dependiendo del caso. Siempre hay un '.root' que almacena los histogramas y otros objetos
+creados. A veces se crean imágenes *.png. El ejemplo de QE_Axial_Mass_reweighting toma como entrada además el archivo 'weights_MACCQ_t3.root',
+que fue creado mediante el ejecutable 'grwght1scan' de Genie.

@@ -1,0 +1,59 @@
+Distribución de interacciones simuladas por Genie del tipo 
+
+(neutrino) + Carbono-12 -> Productos
+
+Flujo de entrada es el de NuMI. Se ha simulado 4M eventos considerando
+todos los tipos de neutrinos presentes en el flujo, en sus respectivas
+proporciones.
+
+En cada carpeta hay:
+
+	1) Código de análisis de eventos y makefile para compilarlo:
+	"gtestEventLoop.cxx"
+	"Makefile"
+
+	(los archivos de eventos no se incluyen por su tamaño) 
+
+	2) Archivo ROOT con histogramas generados:
+	"rx_distribution_Nu(tipo).root"
+
+	3) Plot de Distribución de partículas producidas: 
+	"Nu(tipo)ParticlesCut.png"
+	
+	Muestra la frecuencia de producción de diversos tipos de 
+	partículas en la primera etapa de cada interacción (i.e. no
+	incluye estados estados que han decaído).	
+	El histograma se muestra cortado hasta aquellas partículas con
+	frecuencia mayor a 0.5%, por claridad. La lista completa está
+	en el reporte Nu(tipo)_report.txt.
+	La entrada "HadrSyst" indica DIS en general.
+
+	4) Plot de Distribución de reacciones:
+	"Nu(tipo)ReactionsCut.png"
+	
+	Muestra la frecuencia de las reacciones encontradas en el análisis.	
+	El histograma se muestra cortado hasta aquellas reacciones con
+	frecuencia mayor a 0.5%, por claridad. La lista completa está
+	en el reporte "Nu(tipo)_report.txt".
+
+	5) Plot de Distribución de Interacciones/Scattering:
+	"Nu(tipo)Interactions.png"
+
+	Muestra la frecuencia de los tipos de scattering y de interacción:
+	Scattering:
+	DIS - Deep inelastic scattering
+	RES - Resonant Pion Production
+	QES - Quasielastic scattering
+	COH - Coherent Pion production
+	NuEEl - Neutrino Electron Elastic scattering
+	IMD - Inverse Muon Decay
+
+	6) Resumen del análisis:
+	"Nu(tipo)_report.txt"
+	Muestra el detalle completo de cada uno de los histogramas anteriores.
+	Las reacciones están clasificadas por tipo de interacción y scattering.
+
+
+Todos los histogramas están normalizados a 1 y se muestran sólo las entradas 
+que se encontraron en algún evento durante el análisis, aunque la fracción de 
+algunas puede ser tan baja que su frecuencia aprece como 0.00.
