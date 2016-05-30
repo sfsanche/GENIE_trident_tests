@@ -1,0 +1,4 @@
+#!/bin/bash
+nohup gevgen_numi -f './numiflux_net.root,-12[nue],-14[numu],12[nuebar],14[numubar]' -g 1000060120 -r 1 -n 10000 --seed 19590 --cross-sections ./spline_nus_C12.xml  >/dev/null 2>&1&
+nohup gevgen_numi -f './numiflux_net.root,-12[nue],-14[numu],12[nuebar],14[numubar]' -g 1000060120 -r 2 -n 10000 --seed 10001 --cross-sections ./spline_nus_C12.xml  >/dev/null 2>&1&
+nohup gevgen_numi -f './numiflux_net.root,-12[nue],-14[numu],12[nuebar],14[numubar]' -g 1000060120 -r 3 -n 10000 --seed 25478 --cross-sections ./spline_nus_C12.xml  >/dev/null 2>&1&

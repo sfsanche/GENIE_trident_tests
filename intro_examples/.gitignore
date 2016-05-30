@@ -1,0 +1,6 @@
+#Igore Genie MC status and event files, because they are useless/big
+genie-mcjob-*.status
+gntp.*.ghep.root
+
+#Ignore object files
+*.[ao]
